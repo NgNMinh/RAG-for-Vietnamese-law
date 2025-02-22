@@ -1,14 +1,4 @@
-- INSTALLATION:
-
-Install necessary dependencies:
-
-!pip install --no-deps bitsandbytes accelerate xformers==0.0.29 peft trl triton
-!pip install --no-deps cut_cross_entropy unsloth_zoo
-!pip install sentencepiece protobuf datasets huggingface_hub hf_transfer
-!pip install --no-deps unsloth
-!pip install --quiet langchain_huggingface langchain-chroma langchain langchain_community datasets unstructured[local-inference] gradio
-
-RAG Stepts:
+- RAG Stepts:
 
 1. Load legal documents into the system from a specified .docx file.
 
@@ -20,9 +10,9 @@ RAG Stepts:
 
 5. Optionally, apply reranking methods to enhance retrieval accuracy.
 
-USAGE:
+- USAGE:
 
-1. After uploading the DOCX files correctly as required (verify the correct file path), click RunAll to execute the project.
+1. After uploading the DOCX files correctly as required (verify the correct file path), click RunAll to execute the project (app_RAG file).
 
 2. Once the execution is complete, a chatbot interface will appear.
 
