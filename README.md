@@ -1,4 +1,4 @@
-RAG-based Legal Chatbot
+#RAG-based Legal Chatbot
 
 This project implements a Retrieval-Augmented Generation (RAG) system for legal document retrieval and question answering in Vietnamese. The system loads legal documents, processes and embeds them, retrieves relevant contexts, and generates responses using a fine-tuned Vietnamese legal language model.
 
