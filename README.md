@@ -1,5 +1,4 @@
-
-INSTALLATION:
+- INSTALLATION:
 
 Install necessary dependencies:
 
